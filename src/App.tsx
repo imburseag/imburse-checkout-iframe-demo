@@ -25,8 +25,6 @@ const App = () => {
 
   useEffect(() => {
     const receiveMessage = ((event: any) => {
-      console.log(event);
-
       if (
         event.origin !== CHECKOUT_BASE_URL ||
         !event.data ||
