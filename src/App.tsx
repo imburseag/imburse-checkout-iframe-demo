@@ -5,7 +5,7 @@ import './App.css';
 const App = () => {
   const DEFAULT_IFRAME_HEIGHT = 450;
   const DEFAULT_IFRAME_WIDTH = 750;
-  const CHECKOUT_BASE_URL = 'https://qa-checkout.imburse.net';
+  const CHECKOUT_BASE_URL = 'https://sandbox-checkout.imbursepayments.com';
   const TOKEN = 'YOUR_TOKEN';
   const IFRAME_SRC = `${CHECKOUT_BASE_URL}?token=${TOKEN}`;
 
